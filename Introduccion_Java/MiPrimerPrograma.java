@@ -34,6 +34,9 @@ public class MiPrimerPrograma {
         int edad = 45;
         String nombre = "Marcelo";
         System.out.println("Mi nombre es " + nombre + ", y tengo " + edad + " años.");
-        
+        String mensajeBienvenida = "Bienvenido a Java ";
+        double temperaturaActual = 19;
+        boolean datoLogico = true;
+        System.out.println("Hola, " + mensajeBienvenida +", la temperatura actual es de " + temperaturaActual +" grados. Esta afirmacion es verdadera " + datoLogico);
     }
 }
