@@ -31,9 +31,11 @@ public class MiPrimerPrograma {
         long miLong;
         miLong = 123456789; 
         System.out.println(miString + miFloat + " " + miLong);
+        //Declarar y mostrar variables
         int edad = 45;
         String nombre = "Marcelo";
         System.out.println("Mi nombre es " + nombre + ", y tengo " + edad + " años.");
+        //Ultima parte
         String mensajeBienvenida = "Bienvenido a Java ";
         double temperaturaActual = 19;
         boolean datoLogico = true;
