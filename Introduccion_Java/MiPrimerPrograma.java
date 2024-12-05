@@ -37,7 +37,7 @@ public class MiPrimerPrograma {
         boolean datoLogico = true;
         System.out.println("Hola, " + mensajeBienvenida +", la temperatura actual es de " + temperaturaActual +" grados. Esta afirmacion es verdadera " + datoLogico);*/
 
-
+/* 
 //CLase 2
         Scanner pepe = new Scanner(System.in);
         System.out.print("Por favor ingrese una edad: ");
@@ -46,7 +46,26 @@ public class MiPrimerPrograma {
         System.out.print("Por favor ingrese un nombre completo: ");
         String nombre = pepe.nextLine();
         System.out.println(nombre + " tiene " + edad + " años.");
+        */
+    //Declare 2 variables y asignales un valor a cada una de ellas.
 
+        Scanner variables = new Scanner(System.in);
+        System.out.println("Ingrese la primera variable: ");
+        int num1 = variables.nextInt();
+        System.out.println("Ingrese la segunda variable: ");
+        int num2 = variables.nextInt();
+
+        int suma = num1 + num2;
+        int resta = num1 - num2;
+        double division = num1 / num2;
+        int multiplicar = num1 * num2;
+        int modulo = num1 % num2;
+       
+        System.out.println("La suma de las 2 variables es = a: " + suma);
+        System.out.println("La resta de las 2 variables es = a: " + resta);
+        System.out.println("La division de las 2 variables es = a: " + division);
+        System.out.println("La multiplicacion de las 2 variables es = a: " + multiplicar);
+        System.out.println("El modulo de las 2 variables es: " + modulo);
 
     }
 }
