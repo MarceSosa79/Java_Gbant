@@ -1,6 +1,7 @@
 package Introduccion_Java;
 
 public class MiPrimerPrograma {
+    @SuppressWarnings("unused")
     public static void main(String[] args) throws Exception {
         //Asignacion de variables
         /*int miEntero;
@@ -13,23 +14,17 @@ public class MiPrimerPrograma {
         System.out.println("Mi nombre es Marcelo");
         System.out.println("Mi edad es 45");*/
         //Booleano
-        boolean miBool;
-        miBool = true;
+        boolean miBool = true;
         //Char
-        char miChar;
-        miChar = 'a';
+        char miChar = 'a';
         //String
-        String miString;
-        miString = "Vamos al ";
+        String miString = "Vamos al ";
         //Int
-        int miInt;
-        miInt = 10;
+        int miInt = 10;
         //Float
-        float miFloat;
-        miFloat = 1.75f;
+        float miFloat = 1.75f;
         //Long
-        long miLong;
-        miLong = 123456789; 
+        long miLong = 123456789; 
         System.out.println(miString + miFloat + " " + miLong);
         //Declarar y mostrar variables
         int edad = 45;
