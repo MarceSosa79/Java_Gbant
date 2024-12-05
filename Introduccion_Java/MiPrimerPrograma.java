@@ -1,4 +1,5 @@
 package Introduccion_Java;
+import java.util.Scanner;
 
 public class MiPrimerPrograma {
     @SuppressWarnings("unused")
@@ -14,7 +15,7 @@ public class MiPrimerPrograma {
         System.out.println("Mi nombre es Marcelo");
         System.out.println("Mi edad es 45");*/
         //Booleano
-        boolean miBool = true;
+        /*boolean miBool = true;
         //Char
         char miChar = 'a';
         //String
@@ -34,6 +35,18 @@ public class MiPrimerPrograma {
         String mensajeBienvenida = "Bienvenido a Java ";
         double temperaturaActual = 19;
         boolean datoLogico = true;
-        System.out.println("Hola, " + mensajeBienvenida +", la temperatura actual es de " + temperaturaActual +" grados. Esta afirmacion es verdadera " + datoLogico);
+        System.out.println("Hola, " + mensajeBienvenida +", la temperatura actual es de " + temperaturaActual +" grados. Esta afirmacion es verdadera " + datoLogico);*/
+
+
+//CLase 2
+        Scanner pepe = new Scanner(System.in);
+        System.out.print("Por favor ingrese una edad: ");
+        int edad = pepe.nextInt();
+        pepe.nextLine();
+        System.out.print("Por favor ingrese un nombre completo: ");
+        String nombre = pepe.nextLine();
+        System.out.println(nombre + " tiene " + edad + " años.");
+
+
     }
 }
