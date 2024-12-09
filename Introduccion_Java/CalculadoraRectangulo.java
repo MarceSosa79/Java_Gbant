@@ -1,3 +1,5 @@
+package Introduccion_Java;
+
 import java.util.Scanner;
 
 public class CalculadoraRectangulo {
@@ -16,7 +18,7 @@ public class CalculadoraRectangulo {
         // Verificar validez de los datos y calcular o mostrar error
         String resultado = (baseRectangulo > 0 && alturaRectangulo > 0) 
                            ? "El perímetro del rectángulo es: " + (2 * baseRectangulo + 2 * alturaRectangulo) +
-                             "\nEl área del rectángulo es: " + (baseRectangulo * alturaRectangulo)
+                             "\n El área del rectángulo es: " + (baseRectangulo * alturaRectangulo)
                            : "Los valores de base y altura deben ser mayores que 0.";
 
         // Mostrar el resultado
