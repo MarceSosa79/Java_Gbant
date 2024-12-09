@@ -22,6 +22,7 @@ public class MiPrimerPrograma {
         System.out.println("El número " + num1 + " es divisible entre 2: " + (num1 % 2 == 0));
     }
 
+    @SuppressWarnings("unused")
     public static void mostrarVariables() {
         // Asignación de variables
         int miEntero = 2;
