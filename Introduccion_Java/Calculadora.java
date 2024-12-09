@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
+    @SuppressWarnings("resource")
     Scanner calc = new Scanner(System.in);
 
     System.out.println("Ingrese el primer número: ");
