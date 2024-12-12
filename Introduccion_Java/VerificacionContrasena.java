@@ -1,9 +1,8 @@
-package Introduccion_Java;
-
 import java.util.Objects;
 import java.util.Scanner;
 
 public class VerificacionContrasena {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Porfavor ingresa la contraseña: ");
